@@ -17,7 +17,7 @@
 
 #### 1)Клонируем репозиторий
 
-    git clone https://github.com/Badsnus/YANDEX_INTENSIV.git
+    git clone https://github.com/Badsnus/aiogram_note_bot
 
 #### 2)Создаем виртуальное окружение и активируем его
 
@@ -28,20 +28,18 @@
     
 #### 3)Заходим в директорию репозитория
 
-    cd YANDEX_INTENSIV
+    cd aiogram_note_bot
 
 #### 4) Устанавливаем зависимости
 
     pip install -r requirements.txt
 
-#### 5)Заходим в директорию джанго проекта
+#### 5) .env.example -> .env
 
-    cd YANDEX_INTENSIV
+    Также в этом файле нужно задать токен бота и админ айди (админ айди не обязательно)
+    
+    Как получить токен - https://telegra.ph/Kak-poluchit-token-bota-03-20
 
-#### 6) .env_example -> .env
+#### 6) Запускам проект
 
-    В YANDEX_INTENSIV есть файл .env_example его нужно переименовать в .env 
-
-#### 7) Запускам проект
-
-    python manage.py runserver
+    python app.py
