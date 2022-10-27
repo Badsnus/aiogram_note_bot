@@ -1,0 +1,6 @@
+aiogram
+environs
+databases
+orm
+aiosqlite
+SQLAlchemy==1.4.41
